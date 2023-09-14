@@ -14,6 +14,9 @@ Exercise use convention name, <number-purpose>
 kubectl create -f file.yaml
 ```
 
+kubectl run pod --image image-name
+kubectl describe pod pod-name
+kubectl delete pod pod-name
 ## How to rollback deployment
 kubectl rollout undo deployment deployment-name
 
